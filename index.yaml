@@ -3,12 +3,12 @@ entries:
   test-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-18T16:17:48.3526818+09:00"
+    created: "2022-05-18T16:53:31.8944019+09:00"
     description: A Helm chart for Kubernetes
     digest: b2aa0ae91809d3a0a5eca37aac5af7829550b545e3469c45d9aa4509803cdaaf
     name: test-helm
     type: application
     urls:
-    - test-helm-0.1.0.tgz
+    - https://himiyauchi.github.io/miyauchi-k8s-helm/test-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-18T16:17:48.3481332+09:00"
+generated: "2022-05-18T16:53:31.8926466+09:00"
