@@ -1,5 +1,5 @@
 metadata:
-  name: teas-calc
+  name: teas-calc-app
 replica: 2
 service:
   type: LoadBalancer
