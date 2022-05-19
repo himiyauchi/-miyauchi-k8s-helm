@@ -1,3 +1,6 @@
 metadata:
   name: mychart-from-value
 replica: 2
+service:
+  type: LoadBalancer
+  port: 80

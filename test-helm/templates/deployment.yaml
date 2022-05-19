@@ -13,5 +13,8 @@ spec:
         app: mychart
     spec:
       containers:
-        - name: ntginx
-          image: nginx:latest
+        - name: teas-calc
+          image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/teas_calc:0.1
+          #image: nginx:latest
+          ports:
+            - containerPort: 5042
