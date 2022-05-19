@@ -1,5 +1,5 @@
 metadata:
-  name: mychart-from-value
+  name: teas-calc
 replica: 2
 service:
   type: LoadBalancer
