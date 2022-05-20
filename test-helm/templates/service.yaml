@@ -6,7 +6,7 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: 5042
+      targetPort: 80
       protocol: TCP
   selector:
     app: mychart
