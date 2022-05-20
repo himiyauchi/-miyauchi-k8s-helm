@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: teas-calc
-          image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/hello-world:0.2
+          image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/hello-world:0.3
           ports:
             - containerPort: 80
